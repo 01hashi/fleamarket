@@ -16,5 +16,9 @@ fleamarket 環境構築
 　　php artisan key:generate
 ＃データベース作成
 　　php artisan migrate --seed
-   
+
+
+
+使用技術
+  URL 開発環境　　　http://localhost/ phpMyAdmin　　http://localhost:8080/
 　　　
