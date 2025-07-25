@@ -1,0 +1,164 @@
+main {
+    margin-top: 110px;
+}
+
+.message-success {
+    display: none;
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    color: rgb(255, 73, 73);
+    background-color: white;
+    font-size: 2.4rem;
+    font-weight: bold;
+    z-index: 1000;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 0;
+}
+
+.invitation-form__wrap {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.form__input-email {
+    margin-left: 5px;
+    height: 30px;
+    padding: 2px 10px;
+    width: 250px;
+}
+
+.tab-wrap__group {
+    width: 100%;
+    padding: 30px 50px;
+}
+
+.table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.table__row {
+    height: 50px;
+    border-bottom: 1px solid lightgrey;
+    text-align: left;
+}
+
+.table__row:first-child {
+    border-bottom: 2px solid grey;
+}
+
+.table__header,
+.table__data {
+    padding: 0 10px;
+}
+
+.users-table__id {
+    width: 10%;
+}
+
+.users-table__name {
+    width: 25%;
+}
+
+.users-table__email {
+    width: 50%;
+}
+
+.users-table__delete {
+    width: 15%;
+    text-align: center;
+}
+
+.shops-table__id {
+    width: 10%;
+}
+
+.shops-table__name {
+    width: 20%;
+}
+
+.shops-table__email {
+    width: 30%;
+}
+
+.shops-table__owner {
+    width: 20%;
+}
+
+.shops-table__confirm {
+    width: 20%;
+    text-align: center;
+}
+
+.submit-button {
+    width: 100%;
+    max-width: 120px;
+    height: 30px;
+    text-decoration: none;
+    background-color: rgb(255, 73, 73);
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 1.4rem;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.link-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 170px;
+    height: 30px;
+    padding: 0 5px;
+    text-decoration: none;
+    background-color: rgb(73, 128, 255);
+    color: white;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.invitation-button {
+    width: 100%;
+    max-width: 160px;
+    height: 30px;
+    text-decoration: none;
+    background-color: rgb(73, 128, 255);
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 1.4rem;
+    border: none;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+@media screen and (max-width:768px) {
+    .tab-wrap__group {
+        padding: 30px 20px;
+    }
+
+    .table__group {
+        font-size: 1.4rem;
+        overflow-x: scroll;
+    }
+
+    .table {
+        white-space: nowrap;
+    }
+}
